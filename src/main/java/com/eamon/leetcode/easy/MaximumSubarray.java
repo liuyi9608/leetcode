@@ -23,6 +23,6 @@ public class MaximumSubarray {
     }
 
     public static void main(String[] args) {
-        System.out.println(maxSubArray(new int[]{-10, -20, 999, -100, 19999}));
+        System.out.println(maxSubArray(new int[]{-10, -20, 999, -100, 10}));
     }
 }

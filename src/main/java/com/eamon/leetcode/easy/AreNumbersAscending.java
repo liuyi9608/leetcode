@@ -11,13 +11,13 @@ public class AreNumbersAscending {
         String[] strArr = s.split(" ");
         for (String result : strArr) {
             char c = result.charAt(0);
-            if (c >= 48 && c <= 57) {
+            if (c >= '0' && c <= '9') {
                 if (Integer.parseInt(result) > num) {
                     num = Integer.parseInt(result);
                 } else {
                     return false;
                 }
-                 
+
                 //todo
             }
         }
@@ -25,6 +25,6 @@ public class AreNumbersAscending {
     }
 
     public static void main(String[] args) {
-        System.out.println(areNumbersAscending("1 aaa 5 bbb 3 ccc"));
+        System.out.println(areNumbersAscending("1 aaa 21 bbb 11 ccc"));
     }
 }

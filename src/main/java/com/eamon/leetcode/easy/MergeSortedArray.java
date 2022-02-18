@@ -28,7 +28,7 @@ public class MergeSortedArray {
             }
             sorted[p1 + p2 - 1] = cur;
         }
-        for (int i = 0; i != m + n; ++i) {
+        for (int i = 0; i != m + n; i++) {
             nums1[i] = sorted[i];
         }
     }

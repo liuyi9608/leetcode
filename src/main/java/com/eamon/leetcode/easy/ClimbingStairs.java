@@ -9,7 +9,7 @@ import java.util.Map;
 public class ClimbingStairs {
 
     public static int climbStairs(int n) {
-        int a = 0, b = 0, result = 1;
+        int b = 0, result = 1, a;
         for (int i = 1; i <= n; i++) {
             a = b;
             b = result;
@@ -35,6 +35,7 @@ public class ClimbingStairs {
     }
 
     public static void main(String[] args) {
+
         long l = System.currentTimeMillis();
         System.out.println(climbStairs(54));
         System.out.println(System.currentTimeMillis() - l);

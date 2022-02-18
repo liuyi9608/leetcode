@@ -3,6 +3,8 @@ package com.eamon.leetcode.easy;
 /**
  * @author: eamonliu
  * @date: 2021/11/23 18:07
+ * <p>
+ * https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
  */
 public class RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {

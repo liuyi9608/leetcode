@@ -3,6 +3,8 @@ package com.eamon.leetcode.easy;
 /**
  * @author: eamonliu
  * @date: 2021/11/24 15:01
+ * <p>
+ * https://leetcode-cn.com/problems/sqrtx/
  */
 public class MySqrt {
     public static int mySqrt(int x) {
@@ -21,6 +23,6 @@ public class MySqrt {
     }
 
     public static void main(String[] args) {
-        System.out.println(mySqrt(9));
+        System.out.println(mySqrt(25));
     }
 }
